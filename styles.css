@@ -10,8 +10,8 @@
 }
 .price-card__title {
   display: block;
-  padding-top: 30px;
-  padding-bottom: 36px;
+  margin-top: 30px;
+  margin-bottom: 36px;
 }
 .price-card__header {
   margin: 0;
@@ -49,7 +49,7 @@
 .price-card__description {
   display: block;
   margin: 0;
-  padding: 39px 26px 42px 26px;
+  margin: 39px 26px 42px 26px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
