@@ -95,6 +95,7 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+  border: none;
 }
 .price-card__order-btn_blue {
   background-color: #3a6ba5;
