@@ -1,4 +1,6 @@
 .price-card {
+    position: relative;
+    overflow: hidden;
   width: 380px;
   height: 770px;
   background-color: #334247;
@@ -39,6 +41,23 @@
     line-height: 24px;
     text-align: center;
     color: #ffffff;
+  }
+
+  &__popular {
+    position: absolute;
+    width: 147px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;    
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #DC3F45;
+    top: 31px;
+    right: -29px;
+    transform: rotate(45deg);
+
   }
 
   &__price {
