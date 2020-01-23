@@ -10,9 +10,9 @@
   }
 
   &__title {
-    // margin: 30px 139px 36px 140px;
-    margin-top: 30px;
-    margin-bottom: 36px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 36px;
   }
 
   &__header {
@@ -54,6 +54,7 @@
   }
 
   &__description {
+    display: block;
     margin: 0;
     padding: 39px 26px 42px 26px;
     font-weight: 300;
@@ -103,6 +104,7 @@
     background-color: #5bb189;
     border-radius: 20px;
     color: white;
+    text-transform: uppercase;
 
     &_blue {
       background-color: #3a6ba5;
